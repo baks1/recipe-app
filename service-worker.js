@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/baks1/recipe-app.git/precache-manifest.bc56dd683ce36e8bd905b20ee3d38330.js"
+  "/recipe-app/precache-manifest.73ab7f3b2cf9de106b2383310fc48b09.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/baks1/recipe-app.git/index.html", {
+workbox.routing.registerNavigationRoute("/recipe-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
